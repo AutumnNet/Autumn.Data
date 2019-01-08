@@ -1,7 +1,7 @@
 using System.Collections.Generic;
 using System.Data;
 
-namespace Autumn.Data
+namespace Autumn.Net.Data
 {
     public interface IDataTemplate
     {

@@ -1,6 +1,6 @@
 using System.Data;
 
-namespace Autumn.Data
+namespace Autumn.Net.Data
 {
     public class DataTransaction
     {

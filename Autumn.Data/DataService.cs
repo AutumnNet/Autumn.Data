@@ -3,11 +3,11 @@ using System.Collections.Generic;
 using System.Data;
 using System.Data.Common;
 using System.Linq;
-using Autumn.Annotation;
-using Autumn.Interfaces;
+using Autumn.Net.Annotation;
+using Autumn.Net.Interfaces;
 
 
-namespace Autumn.Data
+namespace Autumn.Net.Data
 {
 	
 	public delegate object DExecute (IDataReader reader);

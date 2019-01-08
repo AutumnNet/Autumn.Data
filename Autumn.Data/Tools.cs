@@ -1,7 +1,7 @@
 using System.Data;
 using System.IO;
 
-namespace Autumn.Data
+namespace Autumn.Net.Data
 {
     public static class Tools
     {

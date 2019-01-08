@@ -7,8 +7,8 @@
     <ProjectGuid>{4A257BEF-0AA8-40CA-AFC7-177189A955CA}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>Autumn.Data</RootNamespace>
-    <AssemblyName>Autumn.Data</AssemblyName>
+    <RootNamespace>Autumn.Net.Data</RootNamespace>
+    <AssemblyName>Autumn.Net.Data</AssemblyName>
     <TargetFrameworkVersion>v4.6</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
   </PropertyGroup>
@@ -32,8 +32,9 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="Autumn, Version=1.1.0.0, Culture=neutral, PublicKeyToken=null">
-      <HintPath>..\..\Autumn\Autumn\bin\Debug\Autumn.dll</HintPath>
+    <Reference Include="Autumn.Net, Version=0.1.4.0, Culture=neutral, PublicKeyToken=null">
+      <HintPath>..\packages\Autumn.Net.0.1.5\lib\net46\Autumn.Net.dll</HintPath>
+      <Private>True</Private>
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
@@ -49,6 +50,12 @@
     <Compile Include="IObjectMapper.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Tools.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Autumn.Data.nuspec" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

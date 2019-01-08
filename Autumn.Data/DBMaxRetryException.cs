@@ -1,6 +1,6 @@
 using System.Data.Common;
 
-namespace Autumn.Data
+namespace Autumn.Net.Data
 {
     public class DbMaxRetryException : DbException
     {
