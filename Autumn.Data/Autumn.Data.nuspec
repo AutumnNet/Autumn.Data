@@ -2,7 +2,7 @@
 <package >
   <metadata>
     <id>Autumn.Net.Data</id>
-    <version>0.1.5</version>
+    <version>0.1.6</version>
     <title>Autumn.Net.Data</title>
     <authors>Dmitry Vysochin</authors>
     <owners>Dmitry Vysochin</owners>
@@ -14,9 +14,12 @@
     <releaseNotes>First package package.</releaseNotes>
     <copyright>Copyright 2019</copyright>
     <tags>DI DATA AUTUMN.NET</tags>
+    <dependencies>
+      <dependency id="Autumn.Net" version="0.1.5" />
+    </dependencies>
   </metadata>
   <files>
     <file src="licenses/license.txt" target="" />
-    <file src="bin\Debug\Autumn.Net.Data.*" target="build" />
+    <file src="bin\Debug\Autumn.Net.Data.*" target="lib/net46" />
   </files>
 </package>
